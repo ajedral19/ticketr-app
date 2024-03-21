@@ -1,0 +1,86 @@
+{
+    "rows": [
+        {
+            "id": "7648049171",
+            "author": "Janel Hoys",
+            "assignee": ["Michaela Feronet"],
+            "assignedteam": [""],
+            "title": "convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim",
+            "type": "Technical issue",
+            "directive": "luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam",
+            "status": "archived",
+            "displays": ["phone/tablet", "desktop"],
+            "support": ["dev or front-end"],
+            "metainfo": [{}],
+            "server": ["development", "staging", "production"],
+            "createdAt": "2023-11-29T00:19:00.050Z",
+            "priorityType": ["normal", "critical", "urgent"],
+            "time": {
+                "limit": "144000000",
+                "consumed": "144000000"
+            },
+            "checklist": [
+                {
+                    "id": "01HG5E4JZQ3FBZ7BTCPW78QGVF",
+                    "worker": "assignees id",
+                    "status": "",
+                    "value": {
+                        "display": ["webview"],
+                        "filepaths": [
+                            "https://github.com/VJSOL/NativeCamp/blob/master/user/View/Elements/modal.php",
+                            "https://github.com/VJSOL/NativeCamp/blob/master/user/View/Elements/message_board_list.php"
+                        ],
+                        "screenshots": [
+                            "https://i.pinimg.com/736x/e0/fa/9a/e0fa9a805e7b64e36ca97947dfe8c94b.jpg",
+                            "https://omg.blog/wp-content/uploads/2022/04/16-625e9c54b825f-jpeg__700.jpg",
+                            "https://121clicks.com/wp-content/uploads/2023/01/no-context-cursed-photos-02.jpeg"
+                        ],
+                        "directive": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed minus maxime dicta ab impedit eligendi? Sit hic maiores eius corrupti eos natus deserunt, minus inventore.",
+                        "targetpage": "https://nativecamp.net/mobapp/campaign/new_year",
+                        "compare": [
+                            {
+                                "before": {
+                                    "screenshot": "",
+                                    "description": ""
+                                },
+                                "after": {
+                                    "screenshot": "",
+                                    "description": ""
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "02HV5ECJZQ35BZ70TKLW77CGVD",
+                    "worker": "assignees id",
+                    "status": "",
+                    "value": {
+                        "display": ["webview"],
+                        "filepaths": [
+                            "https://github.com/VJSOL/NativeCamp/blob/master/user/View/Elements/modal.php"
+                        ],
+                        "screenshots": [
+                            "https://i.pinimg.com/736x/e0/fa/9a/e0fa9a805e7b64e36ca97947dfe8c94b.jpg",
+                            "https://121clicks.com/wp-content/uploads/2023/01/no-context-cursed-photos-02.jpeg"
+                        ],
+                        "directive": "amet lobortis sapien sapien non mi integer ac",
+                        "targetpage": "https://nativecamp.net/mobapp/campaign/new_year",
+                        "compare": [
+                            {
+                                "before": {
+                                    "screenshot": "",
+                                    "description": ""
+                                },
+                                "after": {
+                                    "screenshot": "",
+                                    "description": ""
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

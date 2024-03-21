@@ -1,0 +1,118 @@
+@charset "UTF-8"
+@use './mixins' as mxn
+@use './variables' as var
+
+:root
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color-scheme: light dark
+    color: #F5F5F5
+    background: #131212
+
+*, *::before, *::after
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    border: none
+    color: inherit
+    outline: none
+    text-decoration: none
+
+html
+    font-size: 62.5%
+
+body
+    font-size: var.$fs
+    font-weight: normal
+
+p, a, span, blockquote, small
+    line-height: 1.4
+
+a
+    color: #378ed4
+    position: relative
+    width: fit-content
+    display: inline-block
+    word-break: break-all
+    &:hover
+        text-decoration: underline
+        text-underline-offset: .25rem
+
+@include mxn.headings
+    font-size: inherit
+    font-weight: inherit
+    line-height: 1.4
+
+ul
+    li
+        list-style: none
+
+button
+    --_btn-bg-color: var(--theme-color-extra-f)
+    --_btn-text-color: var(--theme-text-color)
+    background: var(--_btn-bg-color)
+    border-radius: var.$global-radius
+    color: var(--_btn-text-color)
+    cursor: pointer
+    padding: .8rem 1.6rem
+    text-transform: capitalize
+    user-select: none
+    &:hover
+        background: #353535
+
+textarea,
+input:not([type='radio'], [type='checkbox'], [type='button'])
+    font-family: inherit
+    font-size: inherit
+    line-height: inherit
+    width: 100%
+    display: block
+    border-radius: var.$controls-radius
+
+input[type='checkbox']
+    outline: 1px dashed red
+    width: 18px
+    height: 18px
+    isolation: isolate
+    visibility: hidden
+    position: relative
+    &::after, &::before
+        content: ''
+        display: block
+        position: absolute
+        height: inherit
+        width: inherit
+        inset: 50%
+        visibility: visible
+        border-radius: var.$controls-radius * 2
+        transform: translate(-50%, -50%)
+        transition: all .1s ease-out
+
+    &::after
+        width: 65%
+        height: 65%
+        border-radius: var.$controls-radius
+
+    &::before
+        outline: 2px solid #353535
+        outline-offset: -1px
+
+    &:hover
+        &::after
+            background: #4b4b4b
+
+    &:checked
+        &::before
+            background: transparent
+            outline-color: orange
+        &::after
+            background: orange
+
+textarea
+    resize: vertical
+    max-height: 400px
+    min-height: 120px
+
+@media (prefer-color-scheme: light)
+    :root
+        color: #131212
+        background: #F5F5F5

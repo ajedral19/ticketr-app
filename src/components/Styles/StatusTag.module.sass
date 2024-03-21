@@ -1,0 +1,17 @@
+.status
+    outline: 1px solid var(--_tag-color)
+    background: transparent
+    // font-weight: semi bold
+
+    &.archived
+        --_tag-color: var(--theme-color-extra-g)
+    &.closed
+        --_tag-color: var(--theme-color-extra-b)
+    &.done
+        --_tag-color: var(--theme-color-primary)
+    &.in_progress
+        --_tag-color: var(--theme-color-extra-d)
+    &.open
+        --_tag-color: var(--theme-color-extra-a)
+    &.pending
+        --_tag-color: var(--theme-color-extra-c)

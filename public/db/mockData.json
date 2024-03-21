@@ -1,0 +1,218 @@
+{
+    "company": [
+        {
+            "teams": [
+                {
+                    "id": "team_123",
+                    "name": "team work",
+                    "company_id": "company_123",
+                    "team_presets": {
+                        "displays": [
+                            { "id": 0, "value": "desktop" },
+                            { "id": 1, "value": "phone/tablet" },
+                            { "id": 2, "value": "webview" }
+                        ],
+                        "statuses": [
+                            { "id": 0, "value": "pending" },
+                            { "id": 1, "value": "open" },
+                            { "id": 2, "value": "in progress" },
+                            { "id": 4, "value": "done" },
+                            { "id": 3, "value": "archived" },
+                            { "id": 5, "value": "closed" }
+                        ],
+                        "types": [
+                            { "id": 0, "value": "feature" },
+                            { "id": 1, "value": "campaign" },
+                            { "id": 2, "value": "mockup" },
+                            { "id": 3, "value": "mass production" },
+                            { "id": 4, "value": "routine" },
+                            { "id": 5, "value": "config modification" },
+                            { "id": 6, "value": "admin modification" },
+                            { "id": 7, "value": "textbook fix" },
+                            { "id": 8, "value": "bug" },
+                            { "id": 9, "value": "wordpress" }
+                        ],
+                        "support": [
+                            { "id": 0, "value": "back-end team" },
+                            { "id": 1, "value": "front-end team" },
+                            { "id": 3, "value": "SEO" }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "employees": [
+        {
+            "id": "",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "username": "",
+            "secret": "",
+            "password": "",
+            "company": {
+                "id": "",
+                "role": ""
+            }
+        }
+    ],
+    "ticketstore": [
+        {
+            "id": "",
+            "organization_name": "",
+            "created_at": "",
+            "data": {
+                "team": "656d0b96fc13ae0adf4cd6i3",
+                "displays": [
+                    { "id": 0, "value": "desktop" },
+                    { "id": 1, "value": "phone/tablet" },
+                    { "id": 2, "value": "webview" }
+                ],
+                "statuses": [
+                    { "id": 0, "value": "pending" },
+                    { "id": 1, "value": "open" },
+                    { "id": 2, "value": "in progress" },
+                    { "id": 4, "value": "done" },
+                    { "id": 3, "value": "archived" },
+                    { "id": 5, "value": "closed" }
+                ],
+                "types": [
+                    { "id": 0, "value": "feature" },
+                    { "id": 1, "value": "campaign" },
+                    { "id": 2, "value": "mockup" },
+                    { "id": 3, "value": "mass production" },
+                    { "id": 4, "value": "routine" },
+                    { "id": 5, "value": "config modification" },
+                    { "id": 6, "value": "admin modification" },
+                    { "id": 7, "value": "textbook fix" },
+                    { "id": 8, "value": "bug" },
+                    { "id": 9, "value": "wordpress" }
+                ],
+                "support": [
+                    { "id": 0, "value": "back-end team" },
+                    { "id": 1, "value": "front-end team" },
+                    { "id": 3, "value": "SEO" }
+                ],
+                "members": [
+                    { "id": "656d0b96fc13ae0adf4cd6ab", "name": "Paula Caomhánach" },
+                    { "id": "656d0b96fc13ae0adf4cd6ac", "name": "Boreas Thomas" },
+                    { "id": "656d0b96fc13ae0adf4cd6ad", "name": "Vidya Corwin" },
+                    { "id": "656d0b96fc13ae0adf4cd6ae", "name": "Yawan Haugen" },
+                    { "id": "656d0b96fc13ae0adf4cd6af", "name": "Záviš Ström" },
+                    { "id": "656d0b96fc13ae0adf4cd6b0", "name": "Abhay Shearer" },
+                    { "id": "656d0b96fc13ae0adf4cd6b1", "name": "Saorlaith Mayer" },
+                    { "id": "656d0b96fc13ae0adf4cd6b2", "name": "Sayfullah Sterling" },
+                    { "id": "656d0b96fc13ae0adf4cd6b3", "name": "Jósteinn Ngo" },
+                    { "id": "656d0b96fc13ae0adf4cd6b4", "name": "Nicander Paz" },
+                    { "id": "656d0b96fc13ae0adf4cd6b5", "name": "Lesya Peters" },
+                    { "id": "656d0b96fc13ae0adf4cd6b6", "name": "Misho Reier" },
+                    { "id": "656d0b96fc13ae0adf4cd6b7", "name": "Chigozie Gupta" }
+                ],
+
+                "rows": [
+                    {
+                        "id": "TK-1230A",
+                        "author": "656d0b96fc13ae0adf4cd6b5",
+                        "assignee": "656d0b96fc13ae0adf4cd6af",
+                        "title": "convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim",
+                        "type": 7,
+                        "directive": "luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam",
+                        "status": "pending",
+                        "displays": [0, 2],
+                        "support": 1,
+                        "createdAt": "2023-11-29T00:19:00.050Z",
+                        "priorityType": ["normal", "critical", "urgent"],
+                        "time": {
+                            "limit": "144000000",
+                            "consumed": "144000000"
+                        },
+                        "checklist": [
+                            {
+                                "id": "01HG5E4JZQ3FBZ7BTCPW78QGVF",
+                                "worker": "656d0b96fc13ae0adf4cd6af",
+                                "status": 4,
+                                "value": {
+                                    "display": ["webview"],
+                                    "filepaths": [
+                                        "https://github.com/VJSOL/NativeCamp/blob/master/user/View/Elements/modal.php",
+                                        "https://github.com/VJSOL/NativeCamp/blob/master/user/View/Elements/message_board_list.php"
+                                    ],
+                                    "screenshots": [
+                                        "https://i.pinimg.com/736x/e0/fa/9a/e0fa9a805e7b64e36ca97947dfe8c94b.jpg",
+                                        "https://omg.blog/wp-content/uploads/2022/04/16-625e9c54b825f-jpeg__700.jpg",
+                                        "https://121clicks.com/wp-content/uploads/2023/01/no-context-cursed-photos-02.jpeg"
+                                    ],
+                                    "directive": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed minus maxime dicta ab impedit eligendi? Sit hic maiores eius corrupti eos natus deserunt, minus inventore.",
+                                    "targetpage": "https://nativecamp.net/mobapp/campaign/new_year",
+                                    "compare": [
+                                        {
+                                            "before": {
+                                                "screenshot": "",
+                                                "description": ""
+                                            },
+                                            "after": {
+                                                "screenshot": "",
+                                                "description": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "TK-3410C",
+                        "author": "656d0c9d4c23xe1adfs4d6d3",
+                        "assignee": "656d0b96fc13ae0adf4cd6af",
+                        "title": "convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim",
+                        "type": 4,
+                        "directive": "luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam",
+                        "status": "in progress",
+                        "displays": [2, 3],
+                        "support": 0,
+                        "createdAt": "2023-11-29T00:19:00.050Z",
+                        "priorityType": ["normal", "critical", "urgent"],
+                        "time": {
+                            "limit": "144000000",
+                            "consumed": "144000000"
+                        },
+                        "checklist": [
+                            {
+                                "id": "01HG5E4JZQ3FBZ7BTCPW78QGVF",
+                                "worker": "656d0b96fc13ae0adf4cd6af",
+                                "status": 3,
+                                "value": {
+                                    "display": ["webview"],
+                                    "filepaths": [
+                                        "https://github.com/VJSOL/NativeCamp/blob/master/user/View/Elements/modal.php",
+                                        "https://github.com/VJSOL/NativeCamp/blob/master/user/View/Elements/message_board_list.php"
+                                    ],
+                                    "screenshots": [
+                                        "https://i.pinimg.com/736x/e0/fa/9a/e0fa9a805e7b64e36ca97947dfe8c94b.jpg",
+                                        "https://omg.blog/wp-content/uploads/2022/04/16-625e9c54b825f-jpeg__700.jpg",
+                                        "https://121clicks.com/wp-content/uploads/2023/01/no-context-cursed-photos-02.jpeg"
+                                    ],
+                                    "directive": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed minus maxime dicta ab impedit eligendi? Sit hic maiores eius corrupti eos natus deserunt, minus inventore.",
+                                    "targetpage": "https://nativecamp.net/mobapp/campaign/new_year",
+                                    "compare": [
+                                        {
+                                            "before": {
+                                                "screenshot": "",
+                                                "description": ""
+                                            },
+                                            "after": {
+                                                "screenshot": "",
+                                                "description": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

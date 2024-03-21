@@ -1,0 +1,21 @@
+@use '../../styles/variables' as var
+.card
+    --_outline-color: transparent
+    outline-offset: -2px
+    &:hover
+        outline: 2px solid var(--_outline-color)
+    &.archived
+        --_outline-color: var(--theme-color-extra-g)
+    &.closed
+        --_outline-color: var(--theme-color-extra-b)
+    &.done
+        --_outline-color: var(--theme-color-primary)
+    &.in_progress
+        --_outline-color: var(--theme-color-extra-d)
+    &.open
+        --_outline-color: var(--theme-color-extra-a)
+    &.pending
+        --_outline-color: var(--theme-color-extra-c)
+
+    .info
+        margin-block: .5em 1em

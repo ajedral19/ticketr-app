@@ -1,0 +1,33 @@
+@use 'sass:math'
+
+@mixin headings
+    h1, h3, h3, h4, h5, h6
+        @content
+
+@mixin whitespace($limit: 6)
+    $properties: (m: margin, p: padding)
+    $sides: (t: top, b: bottom, l: left, r: right)
+
+    @for $n from 1 through $limit
+        @each $typeKey, $type in $properties
+            .#{$typeKey}-#{$n}
+                #{$type}: #{$n}em
+            @each $sideKey, $side in $sides
+                .#{$typeKey}#{$sideKey}-#{$n}
+                    #{$type}-#{$side}: #{$n}em
+
+@mixin flex($columns: 12, $size: null)
+    @for $n from 1 through $columns
+        &.col-#{$n}
+            flex-grow: 0
+            flex-basis: math.percentage(math.div($n, $columns))
+        @if $size
+            &.#{$size}-#{$n}
+                flex-basis: math.percentage(math.div($n, $columns))
+
+@mixin titles($variants: 4, $unit: rem)
+    $size: $variants + 1.2
+    @for $n from 0 through ($variants)
+        $size: $size - .8
+        .title-#{$n + 1}
+            font-size: #{$size}#{$unit}

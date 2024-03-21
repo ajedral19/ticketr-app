@@ -1,0 +1,82 @@
+{
+    "ticket_store": {
+        "super": {
+            "credential": {
+                "login_id": "",
+                "password": "",
+                "secret": ""
+            }
+        },
+        "privileges": [
+            {
+                "key": "",
+                "value": ""
+            }
+        ],
+
+        "users": [
+            {
+                "id": "",
+                "user_first_name": "",
+                "user_last_name": "",
+                "user_properties": {
+                    "org_id": "org_id",
+                    "role_id": "",
+                    "teams": ["org_team_id"],
+                    "privilege_key": ""
+                },
+                "user_credentials": {
+                    "email": "",
+                    "username": "",
+                    "password": "",
+                    "secret": ""
+                },
+                "tickets": []
+            }
+        ],
+
+        "organizations": [
+            {
+                "id": "",
+                "org_name": "",
+                "org_teams": [
+                    {
+                        "id": "",
+                        "team_presets": {},
+                    }
+                ],
+                "members": ["user_id"],
+                "tickets": [
+                    {
+                        "id": "",
+                        "ticket_assignees": ["user_idx`"],
+                        "ticket_author": "",
+                        "ticket_description": "",
+                        "ticket_logs": "",
+                        "tikcet_number": "",
+                        "ticket_title": "",
+                        "ticket_comments": [],
+                        "ticket_properties": {
+                            "support": "",
+                            "status": "",
+                            "deadline": "",
+                            "type": "",
+                            "priority_level": ""
+                        },
+                        "ticket_checklist": [
+                            {
+                                "id": "",
+                                "item_status": "",
+                                "item_comments": [],
+                                "item_content": {
+                                    "item_description": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "time_logs": []
+            }
+        ]
+    }
+}
